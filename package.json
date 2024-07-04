@@ -1,6 +1,6 @@
 {
     "name": "weather",
-    "private": true,
+    "private": "true",
     "version": "1.0.0",
     "type": "module",
     "description": "Quickly access accurate weather information with a clean, modern and user-friendly design.",
