@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: $spacing-40;
+
+  & > *:nth-child(n) {
+    margin-right: $spacing-16;
+  }
+
+  & > *:last-child {
+    margin-right: $spacing-0;
+  }
+
+  .attribution {
+    @include typography($font-size-14, $regular-400, $accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    width: 100%;
+    padding: $spacing-14 $spacing-16;
+    border-radius: $border-radius;
+    text-align: center;
+    background-color: $tertiary-color;
+
+    @include media-query("small") {
+      margin-top: $spacing-16;
+      margin-right: $spacing-0;
+      order: 1;
+    }
+  }
+
+  @include media-query("small") {
+    flex-wrap: wrap;
+  }
+}

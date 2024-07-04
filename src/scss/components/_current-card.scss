@@ -1,0 +1,71 @@
+.current-weather-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  padding: $spacing-16 $spacing-20;
+  border: $line-weight solid $primary-color;
+  border-radius: $border-radius;
+  background-color: $tertiary-color;
+
+  .current-weather-icon {
+    min-height: 96px;
+    min-width: 96px;
+    height: 96px;
+    width: 96px;
+    margin: $spacing-14 $spacing-16;
+  }
+
+  .current-weather-temperature {
+    @include typography($font-size-36, $medium-500, $primary-color);
+    width: auto;
+    margin: $spacing-14 $spacing-16;
+  }
+
+  .current-weather-description {
+    @include typography($font-size-16, $regular-400, $primary-color);
+    width: auto;
+    margin: $spacing-0 $spacing-16 $spacing-14 $spacing-16;
+  }
+
+  .current-location-container {
+    display: flex;
+    align-items: center;
+    margin: $spacing-14 $spacing-16;
+
+    svg {
+      min-height: 24px;
+      min-width: 24px;
+
+      path {
+        stroke: $primary-color;
+      }
+    }
+
+    .current-location {
+      @include typography($font-size-16, $regular-400, $primary-color);
+      width: 100%;
+      margin-left: $spacing-12;
+    }
+  }
+
+  .current-date-container {
+    display: flex;
+    align-items: center;
+    margin: $spacing-0 $spacing-16 $spacing-14 $spacing-16;
+
+    svg {
+      min-height: 24px;
+      min-width: 24px;
+
+      path {
+        fill: $primary-color;
+      }
+    }
+    .current-date {
+      @include typography($font-size-16, $regular-400, $primary-color);
+      width: 100%;
+      margin-left: $spacing-12;
+    }
+  }
+}

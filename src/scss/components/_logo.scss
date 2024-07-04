@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-14 $spacing-16;
+  border-radius: $border-radius;
+  background-color: $tertiary-color;
+
+  path {
+    fill: $primary-color;
+  }
+}

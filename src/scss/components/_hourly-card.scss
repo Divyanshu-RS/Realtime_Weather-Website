@@ -1,0 +1,34 @@
+.hourly-weather-forecast-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  padding: $spacing-16 $spacing-20;
+  border-radius: $border-radius;
+  background-color: $tertiary-color;
+
+  .hourly-weather-forecast-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: $spacing-14 $spacing-16;
+
+    .hourly-weather-forecast-date-time {
+      width: 100%;
+      margin-right: $spacing-12;
+
+      .hourly-weather-forecast-date {
+        @include typography($font-size-14, $regular-400, $accent-color);
+        margin-bottom: $spacing-6;
+      }
+
+      .hourly-weather-forecast-time {
+        @include typography($font-size-16, $regular-400, $primary-color);
+      }
+    }
+
+    .hourly-weather-forecast-temperature {
+      @include typography($font-size-16, $medium-500, $primary-color);
+    }
+  }
+}

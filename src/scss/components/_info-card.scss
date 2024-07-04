@@ -1,0 +1,68 @@
+.current-weather-details-left,
+.current-weather-details-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+
+  .wind-speed-card,
+  .pressure-card,
+  .sunrise-card,
+  .humidity-card,
+  .visibility-card,
+  .sunset-card {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: $spacing-16 $spacing-20;
+    border-radius: $border-radius;
+    background-color: $tertiary-color;
+
+    .wind-speed-icon,
+    .pressure-icon,
+    .sunrise-icon,
+    .humidity-icon,
+    .visibility-icon,
+    .sunset-icon {
+      height: 48px;
+      width: 48px;
+    }
+
+    .wind-speed-details,
+    .pressure-details,
+    .sunrise-details,
+    .humidity-details,
+    .visibility-details,
+    .sunset-details {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-left: $spacing-12;
+
+      .wind-speed-title,
+      .pressure-title,
+      .sunrise-title,
+      .humidity-title,
+      .visibility-title,
+      .sunset-title {
+        @include typography($font-size-16, $regular-400, $accent-color);
+        margin: $spacing-14 $spacing-16 $spacing-12 $spacing-16;
+      }
+
+      .wind-speed-value,
+      .pressure-value,
+      .sunrise-value,
+      .humidity-value,
+      .visibility-value,
+      .sunset-value {
+        @include typography($font-size-24, $regular-400, $primary-color);
+        margin: $spacing-0 $spacing-16 $spacing-14 $spacing-16;
+      }
+    }
+  }
+
+  .pressure-card,
+  .visibility-card {
+    margin: $spacing-16 $spacing-0;
+  }
+}

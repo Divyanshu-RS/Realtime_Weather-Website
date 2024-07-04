@@ -1,0 +1,109 @@
+.search-box-icon,
+.gps-button,
+.theme-button,
+.top-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  min-width: 56px;
+  padding: $spacing-14 $spacing-16;
+  border-radius: $border-radius;
+  background-color: $tertiary-color;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+
+  &:focus-visible {
+    outline: none;
+    transform: scale(0.98);
+  }
+}
+
+.gps-button,
+.theme-button,
+.top-button {
+  path {
+    stroke: $primary-color;
+  }
+}
+
+.search-box-icon {
+  cursor: auto;
+
+  path {
+    fill: $primary-color;
+  }
+
+  &:hover {
+    transform: none;
+  }
+}
+
+.cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-14 $spacing-16;
+  border-radius: $border-radius;
+  background-color: $primary-color;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  .cta-button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    path {
+      fill: $secondary-color;
+    }
+  }
+
+  .cta-button-text {
+    @include typography($font-size-16, $medium-500, $secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: $spacing-12;
+    white-space: nowrap;
+  }
+
+  &:hover {
+    transform: scale(0.98);
+  }
+
+  &:focus-visible {
+    outline: none;
+    transform: scale(0.98);
+  }
+}
+
+.alert-button {
+  @include typography($font-size-16, $medium-500, $secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-14 $spacing-16;
+  border-radius: calc($border-radius / 2);
+  background-color: $primary-color;
+  cursor: pointer;
+  transition: transform 0.2s;
+  white-space: nowrap;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+
+  &:focus-visible {
+    outline: none;
+    transform: scale(0.98);
+  }
+
+  @include media-query("small") {
+    width: 100%;
+  }
+}

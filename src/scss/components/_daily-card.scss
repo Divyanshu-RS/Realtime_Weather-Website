@@ -1,0 +1,42 @@
+.daily-weather-forecast-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $spacing-16 $spacing-20;
+  border-radius: $border-radius;
+  background-color: $tertiary-color;
+
+  .daily-weather-forecast-date-time {
+    width: 100%;
+    margin-right: $spacing-12;
+
+    .daily-weather-forecast-date {
+      @include typography($font-size-14, $regular-400, $accent-color);
+      margin-bottom: $spacing-6;
+    }
+
+    .daily-weather-forecast-time {
+      @include typography($font-size-16, $regular-400, $primary-color);
+    }
+  }
+
+  .daily-weather-forecast-icon {
+    min-height: 36px;
+    min-width: 36px;
+    height: 36px;
+    width: 36px;
+    margin-right: $spacing-12;
+    margin-left: auto;
+  }
+
+  .daily-forecast-weather-details {
+    .daily-weather-forecast-temperature {
+      @include typography($font-size-16, $medium-500, $primary-color);
+      margin-bottom: $spacing-6;
+    }
+
+    .daily-weather-forecast-description {
+      @include typography($font-size-14, $regular-400, $accent-color);
+    }
+  }
+}
