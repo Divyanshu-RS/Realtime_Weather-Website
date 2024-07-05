@@ -45,7 +45,7 @@ const getUserLocation = async() => {
 
     const errorCallback = (error) => {
         console.log(error);
-        fetchWeatherData("Istanbul");
+        fetchWeatherData("Delhi");
     };
 
     navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
