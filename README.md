@@ -58,4 +58,12 @@
 # Contributing
 Contributions are welcome! If you have any suggestions or find any bugs, please open an issue or submit a pull request.
 
+# License
+This software, '<b>Whats The Weather?</b>', is proprietary and closed-source, licensed under the GNU General Public License v3.0. 
+It is <b>not open-source</b>, and usage requires explicit permission from the creator or authorized entity
+
+# Author
+Whats The Weather? is created and maintained by Divyanshu Ranjan Singh. You can find more of my work on my GitHub profile:<a href="https://github.com/Divyanshu-RS"> Divyanshu-RS </a>
+
+
 
