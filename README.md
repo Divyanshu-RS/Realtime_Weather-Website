@@ -2,7 +2,7 @@
 
 <h3>This project is a real-time weather application built using React.js and deployed on Vercel. It lets users instantly check weather conditions for various locations worldwide, providing a seamless experience to stay informed about current weather updates.</h3>
 
-<img src="Thumbnail-Light.png" alt="Weather" width="100%">
+<img src="Thumbnail-Light.jpeg" alt="Weather" width="100%">
 
 # Key Features: 
 
