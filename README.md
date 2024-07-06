@@ -21,7 +21,7 @@
 <h4>5. Minimalistic and Responsive Design:</h4>
   The application boasts a clean and intuitive user interface designed for ease of use. Its minimalistic design focuses on presenting essential weather information in a visually appealing manner. Moreover, the design is fully responsive, ensuring seamless functionality and optimal user experience across various devices, including desktops, tablets, and mobile phones.
 
-<h4>6. Error Handling and Fast Performance:<h4>
+<h4>6. Error Handling and Fast Performance:</h4>
   Robust error handling mechanisms are implemented to gracefully manage API request failures or invalid user inputs. This ensures that users receive informative feedback and maintain uninterrupted access to weather updates. The application is built with Next.js, a framework known for efficient page rendering and fast loading times, enhancing overall performance and user satisfaction.
 
 # Tech Stack:
@@ -35,7 +35,7 @@
 <li>CSS Preprocessor: None (uses native CSS)</li>
 </ul>
 
-<h4>Backend/Server-side:<h4>
+<h4>Backend/Server-side:</h4>
 <ul>
 <li>Server-side Framework: Next.js (handles server-side rendering and API routes)</li>
 <li>API Integration: Integrates with OpenWeatherMap API to fetch up-to-date weather data based on user queries.</li>
@@ -54,3 +54,8 @@
 <li>Geolocation API: Browser's geolocation API for fetching the user's location.</li>
 <li>Weather Icons and Graphics: Custom icons and graphics used to visually represent weather conditions on the application.</li>
 </ul>
+
+# Contributing
+Contributions are welcome! If you have any suggestions or find any bugs, please open an issue or submit a pull request.
+
+
