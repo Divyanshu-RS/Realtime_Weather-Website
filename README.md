@@ -1,6 +1,6 @@
 # Realtime Weather Website
 
-<h1>This project is a real-time weather application built using React.js and deployed on Vercel. It lets users instantly check weather conditions for various locations worldwide, providing a seamless experience to stay informed about current weather updates.</h1>
+<h2>This project is a real-time weather application built using React.js and deployed on Vercel. It lets users instantly check weather conditions for various locations worldwide, providing a seamless experience to stay informed about current weather updates.</h2>
 
 <img src="thumbnail.png" alt="Weather" width="100%">
 
